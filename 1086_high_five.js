@@ -23,7 +23,9 @@ function div(arr) {
 }
 
 function add(arr, val) {
-    if (arr.length < 5) arr.push(val)
+    if (arr.length < 5){
+        arr.push(val)
+    } 
     else {
         let min = Number.MAX_VALUE
         let idx = -1
